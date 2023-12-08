@@ -18,6 +18,6 @@
     ])
     </head>
     <body class="antialiased">
-        <nav id="navigation"></nav>
+        <nav id="navigation red-line"></nav>
     </body>
 </html>
