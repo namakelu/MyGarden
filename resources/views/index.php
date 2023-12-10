@@ -10,14 +10,15 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         @viteReactRefresh
-    <!-- @vite() ではエントリポイントとなるファイルを指定 -->
     @vite([
     'resources/css/app.css',
     'resources/scss/app.scss',
     'resources/ts/index.tsx',
     ])
+    <script type="module" src="/../ts/index.jsx" defer></script>
     </head>
     <body class="antialiased">
-        <nav id="navigation red-line"></nav>
+        <nav id='navigation'></nav>
+        <p>test</p>
     </body>
 </html>
